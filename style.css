@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+*
+body {
+      
+      font-family: 'Tangerine',cursive;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(#353b48,#dcdde1);
+      
+    }
+
+
+    
+    
+
+    .img {
+     
+           height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    color: white;
+    }
+    .swiper-container {
+     
+      margin-top: 15px;
+      width: 40%;
+      height: 50%;
+    }
+    .details {
+      text-align: center;
+      color: darkgoldenrod;
+         font-size: 30px;
+    }
+  
+
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+}
+/* fade start*/
+    .text {
+        position:relative;
+        text-align: center;
+        font-size: 40px;
+        line-height:3em;
+        overflow:hidden;
+    }
+    .fadingEffect {
+        position:absolute;
+        top:0; bottom:0; right:0;
+        width:100%;
+        background:white;
+        -webkit-animation: showHide 20s ease-in alternate infinite; /* Safari and Chrome */
+        animation: showHide 20s ease-in alternate infinite;
+    }
+    @-webkit-keyframes showHide { /* Chrome, Safari */
+        0% {width:100%}
+        40% {width:0%}
+        60% {width:0%;}
+        100% {width:100%;}
+    }
+    
+    @keyframes showHide {
+        0% {width:100%}
+        40% {width:0%}
+        60% {width:0%;}
+        100% {width:100%;}
+    }
+    /* fade end*/
